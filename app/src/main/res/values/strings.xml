@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">e_wallet</string>
+    <string name="login">Login</string>
+    <string name="riwayat_transaksi">Riwayat Transaksi</string>
+    <string name="berhasil">Berhasil</string>
+    <string name="todo">TODO</string>
+    <string name="_15_000_000">15.000.000</string>
+    <string name="lord_hizbi">Lord! Hizbi</string>
+    <string name="transfer">Transfer</string>
+    <string name="history">History</string>
+    <string name="icon_story">TODO</string>
+    <string name="icon_tf">icon_tf</string>
+    <string name="user">USER</string>
+    <string name="email">Email</string>
+    <string name="your_otp">Your OTP</string>
+    <string name="Tf">Transfer</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Login">login</string>
+    <string name="register">Register</string>
+    <string name="masukan_nomor_tujuan">Masukan Nomor Tujuan</string>
+    <string name="enter_your_number">Enter Your Number</string>
+</resources>

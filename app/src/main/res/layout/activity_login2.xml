@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:backgroundTint="@color/background">
+
+    <ImageView
+
+        android:layout_gravity="center"
+        android:id="@+id/illustration2"
+        android:layout_width="165dp"
+        android:layout_height="166dp"
+        android:src="@drawable/illustration2"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#CFCCCC"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Enter your email"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/black"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/edt_pass"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#CFCCCC"
+        android:fontFamily="@font/poppinsregular"
+        android:hint="Confirm Password"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        android:textSize="14dp" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forget_password_text"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/forget_password_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Forget Password?"
+        android:textColor="@color/secondary_color"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintVertical_bias="0.0" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/text_login"
+        android:layout_width="408dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Not have an account?"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Register"
+            android:textColor="@color/secondary_color"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

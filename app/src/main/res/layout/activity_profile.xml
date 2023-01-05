@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Profile"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_user"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="279dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="91dp"
+            android:src="@drawable/user"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/tvnamauser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:minHeight="48dp"
+            android:text="Hizbi Maulana"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvalamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="50dp"
+            android:gravity="right"
+            android:minHeight="48dp"
+            android:text="Yogyakarta"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    <TextView
+            android:id="@+id/tvsaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="147dp"
+            android:layout_marginTop="80dp"
+            android:gravity="right"
+            android:minHeight="48dp"
+            android:text="150000000"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_marginTop="470dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="KELUAR"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:backgroundTint="@color/white" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
